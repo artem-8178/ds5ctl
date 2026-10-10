@@ -6,6 +6,7 @@ members = ["crates/dualsense", "crates/ds5ctl"]
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+authors = ["artem-8178"]
 rust-version = "1.95"
 
 [profile.release]

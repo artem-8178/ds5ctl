@@ -141,3 +141,11 @@ window and exits; handy for documentation.
 Report layouts follow the Linux `hid-playstation` driver, Nielk1's DualSense
 reverse-engineering notes and trigger effect generator, and
 [dualsensectl](https://github.com/nowrep/dualsensectl).
+
+## License
+
+MIT, see [LICENSE](LICENSE).
+
+The adaptive trigger encodings are based on Nielk1's TriggerEffectGenerator
+(MIT, Copyright (c) 2021-2022 John "Nielk1" Klein); its notice is kept in
+`crates/dualsense/src/trigger.rs`.
