@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=DualSense Settings
+GenericName=Controller settings
+Comment=Configure the lightbar, adaptive triggers and vibration of DualSense controllers
+Exec=ds5ctl
+Icon=input-gaming
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=DualSense;PS5;controller;gamepad;lightbar;triggers;
+StartupWMClass=ds5ctl

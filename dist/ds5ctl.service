@@ -1,0 +1,9 @@
+[Unit]
+Description=Apply the saved DualSense profile when a controller connects
+
+[Service]
+ExecStart=%h/.local/bin/ds5ctl daemon
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

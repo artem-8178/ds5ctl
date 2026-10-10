@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = ["crates/dualsense", "crates/ds5ctl"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.95"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"

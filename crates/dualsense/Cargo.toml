@@ -1,0 +1,15 @@
+[package]
+name = "dualsense"
+description = "DualSense controller protocol over Linux hidraw"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[features]
+serde = ["dep:serde"]
+
+[dependencies]
+crc32fast = "1"
+libc = "0.2"
+serde = { version = "1", features = ["derive"], optional = true }
